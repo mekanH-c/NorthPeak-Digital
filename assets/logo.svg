@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="NorthPeak Digital Logo">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9ed763" />
+      <stop offset="100%" stop-color="#2c9e4b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Superhero Hero Icon (Inspired by Digital Heroes Mascot) -->
+  <g transform="translate(10, 10)">
+    <!-- Helmet / Head -->
+    <circle cx="28" cy="22" r="16" fill="none" stroke="#2c9e4b" stroke-width="3" />
+    <path d="M 20 18 C 22 12, 34 12, 34 20 C 34 26, 22 26, 20 18 Z" fill="#2c9e4b" />
+    
+    <!-- Body -->
+    <path d="M 28 38 L 28 58 M 20 66 L 20 58 L 36 58 L 36 66" stroke="#2c9e4b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <!-- Cape flowing back -->
+    <path d="M 26 40 Q 5 45 10 64 Q 28 55 28 42 Z" fill="url(#logo-grad)" stroke="#2c9e4b" stroke-width="2" />
+    
+    <!-- Arm / Action Pose -->
+    <path d="M 28 42 L 40 48 L 36 55" stroke="#2c9e4b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <!-- Backpack detail -->
+    <rect x="36" y="34" width="8" height="18" rx="2" fill="none" stroke="#2c9e4b" stroke-width="2.5" />
+    <line x1="39" y1="40" x2="43" y2="40" stroke="#2c9e4b" stroke-width="2" />
+    <line x1="39" y1="45" x2="43" y2="45" stroke="#2c9e4b" stroke-width="2" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(75, 48)">
+    <text font-family="System-UI, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="24" fill="#0a4650" letter-spacing="-0.5">NorthPeak</text>
+    <text x="126" font-family="System-UI, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="24" fill="#2c9e4b" letter-spacing="-0.5">Digital</text>
+  </g>
+</svg>
