@@ -75,12 +75,20 @@ npx serve .
 ```
 
 ## Lighthouse Optimization (Task B)
+<img width="1468" height="2758" alt="image" src="https://github.com/user-attachments/assets/32f333eb-fa83-4d9e-b752-aa267341d3f0" />
 
-See [`CHANGELOG.md`](./CHANGELOG.md) for the full breakdown of performance and accessibility optimizations, with before/after reasoning for each change.
+Category	Score
+Performance	100
+Accessibility	96
+Best Practices	100
+SEO	100
+
+Mobile, throttled to Slow 4G, Lighthouse 13.4.0.
+
+The first Accessibility run came back at 90 with three flagged issues: a missing ARIA role on the star-rating widget, a heading level skipped in the testimonials section, and a text/background color pair that fell short of the 4.5:1 contrast requirement. Fixing all three brought it up to 96. See CHANGELOG.md for the full breakdown of what changed and why.
 
 ## AI Usage Disclosure
 
-Built with AI assistance (Claude) for scaffolding HTML structure, CSS patterns, and validation logic. I directed the architecture, wrote and revised the copy, made the layout/design decisions, and tested and adjusted the responsive breakpoints and accessibility behavior myself.
+I used Claude to help scaffold the initial HTML and CSS, and to help me understand and fix the specific Lighthouse accessibility failures — the ARIA role, the heading order, and the contrast issue. Every decision on layout, copy, color usage, and which fixes to actually apply was mine, and I re-ran Lighthouse myself after each change to confirm it worked rather than taking the first suggestion at face value.
 
----
-Built for the Digital Heroes Internship Web Development task. Not a real company.
+Built for the Digital Heroes Internship Web Development task.
